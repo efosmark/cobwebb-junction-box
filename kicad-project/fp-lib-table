@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CobwebbJunctionBox)(type KiCad)(uri "$(KIPRJMOD)\\CobwebbJunctionBox.pretty")(options "")(descr ""))
+)

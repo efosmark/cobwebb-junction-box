@@ -1,0 +1,42 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# RF_Choke
+#
+DEF RF_Choke U 0 40 Y Y 1 F N
+F0 "U" 0 -250 60 H V C CNN
+F1 "RF_Choke" 0 350 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -150 200 150 -150 0 1 0 N
+X + 1 -350 150 200 R 50 50 1 1 I
+X - 2 -350 -100 200 R 50 50 1 1 I
+X + 3 350 150 200 L 50 50 1 1 I
+X - 4 350 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Terminal_Block_10_Pin
+#
+DEF Terminal_Block_10_Pin U 0 40 Y Y 1 F N
+F0 "U" 0 -600 60 H V C CNN
+F1 "Terminal_Block_10_Pin" 0 600 60 H V C CNN
+F2 "" -100 0 60 H V C CNN
+F3 "" -100 0 60 H V C CNN
+DRAW
+S -150 500 150 -500 0 1 0 N
+X ~ 1 -350 450 200 R 50 50 1 1 I
+X ~ 2 -350 350 200 R 50 50 1 1 I
+X ~ 3 -350 250 200 R 50 50 1 1 I
+X ~ 4 -350 150 200 R 50 50 1 1 I
+X ~ 5 -350 50 200 R 50 50 1 1 I
+X ~ 6 -350 -50 200 R 50 50 1 1 I
+X ~ 7 -350 -150 200 R 50 50 1 1 I
+X ~ 8 -350 -250 200 R 50 50 1 1 I
+X ~ 9 -350 -350 200 R 50 50 1 1 I
+X ~ 10 -350 -450 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
